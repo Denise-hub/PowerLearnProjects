@@ -1,19 +1,42 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/M6vnltHW)
-# Introduction to CSS
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ghi9tnBG)
+# Assignment Title: Hands-on Exercise: Basic Form Validation Using JavaScript
 
-## Assignment Description:
-In this assignment, you will utilize your knowledge of HTML and CSS to apply what you've learned about CSS to style the HTML page created in Week 1.
-Focus on text styling, backgrounds, spacing, and layout. This assignment will help you practice structuring web pages using HTML and styling them with CSS.
+## Objective:
+The purpose of this assignment is to provide students with practical experience in implementing basic form validation using JavaScript. Students will learn how to ensure that user inputs meet specified criteria before form submission.
+
+## Assignment Overview:
+In this hands-on exercise, students will create a simple web form and implement client-side validation using JavaScript. The form should include various input types, such as text fields, email, password, and select/dropdown menus. The validation script should check for correct input formats, required fields, and any other specified conditions before allowing the form to be submitted.
 
 ## Requirements:
+CReate a registration and login form 
 
-## HTML Structure:
-      Structure your HTML document with appropriate tags such as <html>, <head>, <title>, <section>, <div>, <form> and <body>.
+### Registration Form Structure:
 
-## CSS Styling:
-        Create a CSS file named styles.css.
-        Style your web page using CSS to make it visually appealing.
-        Utilize CSS properties such as font-family, color, background-color, margin, padding, border, text-align, etc.
+Form Fields:
+Name (text field)
+Email (email field)
+Password (password field)
+Confirm Password (password field)
+Age (number field)
+Gender (radio buttons)
+Country (select/dropdown menu)
+Terms and Conditions (checkbox)
+Submit Button: A button to submit the form.
 
-### Submission:
-        When you push and commit changes to the index.html file, your submission will be received.
+### Login Form Structure:
+
+Form Fields:
+Email (email field)
+Password (password field)
+Login Button.
+
+## JavaScript Validation:
+
+Required Fields: Ensure that all fields marked as required are not empty.
+Email Validation: Check that the email address is in the correct format (e.g., user@example.com).
+Password Validation:
+Ensure the password is at least 8 characters long.
+Ensure that the "Confirm Password" field matches the "Password" field.
+Number Validation: Ensure the age entered is a valid number and falls within a reasonable range (e.g., 18-100).
+Checkbox Validation: Ensure that the "Terms and Conditions" checkbox is checked before form submission.
+Error Messages: Display clear and concise error messages near the relevant fields if validation fails.
